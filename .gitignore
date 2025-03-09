@@ -1,0 +1,35 @@
+node_modules/
+# Ignore specific backend files
+backend/check-bookings.js
+backend/db.js
+backend/setup-db.js
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore build/output directories
+dist/
+build/
+out/
+
+# Ignore dependency files (if needed)
+package-lock.json
+yarn.lock
+
+# Ignore frontend-specific files (if needed)
+frontend/.svelte-kit/
+frontend/build/
